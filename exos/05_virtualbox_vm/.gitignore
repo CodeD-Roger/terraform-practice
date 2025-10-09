@@ -1,5 +1,6 @@
-*.tfstate
-*.tfstate.backup
+# Terraform directories and files to ignore
 .terraform/
-.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
 crash.log
+# do NOT ignore .terraform.lock.hcl (must be versioned)
